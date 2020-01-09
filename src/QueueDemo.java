@@ -13,12 +13,12 @@ public class QueueDemo {
         System.out.println(queue);
 
         // Peeking using (methode peek()): Obtaining the head of the queue
-        queue.peek();
-        System.out.println(queue);
+//        queue.peek();
+        System.out.println(queue.peek());
 
         // Polling using the method (poll()): Remove the head of the queue
-        queue.poll();
-        System.out.println(queue);
+//        queue.poll();
+        System.out.println(queue.poll());
 
 
     }
