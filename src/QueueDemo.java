@@ -10,15 +10,17 @@ public class QueueDemo {
         for (int i = 10 ; i > 0 ; i--){
             queue.add(i);
         }
-        System.out.println(queue);
-
+        System.out.println("Queue size is "+queue.size());
         // Peeking using (methode peek()): Obtaining the head of the queue
 //        queue.peek();
-        System.out.println(queue.peek());
+        System.out.println("Head of queue is "+queue.peek());
 
         // Polling using the method (poll()): Remove the head of the queue
-//        queue.poll();
-        System.out.println(queue.poll());
+        queue.poll();
+        System.out.println("Queue size after poll() is "+queue.size());
+
+        System.out.println("Head of queue after is "+queue.peek());
+
 
 
     }
